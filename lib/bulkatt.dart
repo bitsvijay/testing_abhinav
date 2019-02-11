@@ -546,7 +546,7 @@ class _Bulkatt extends State<Bulkatt> {
 
                 Divider(
                   color: Colors.blueGrey.withOpacity(0.25),
-                  height: 20,
+                  height: 20.0,
                 ),
               ]
               );

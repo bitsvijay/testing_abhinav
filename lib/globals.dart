@@ -1,7 +1,7 @@
 import 'model/timeinout.dart';
 //String path="http://192.168.0.200/ubiattendance/index.php/Att_services/";
 //String path="https://ubiattendance.ubihrm.com/index.php/Att_services/";
-String path="https://sandbox.ubiattendance.com/index.php/Att_services/";
+String path="https://thewebjournal.in/geo-attendance/index.php/att_services/";
 MarkTime mk1;
 String path_hrm_india="https://ubitech.ubihrm.com/services/";
 List<Map<String, double>> list = new List();

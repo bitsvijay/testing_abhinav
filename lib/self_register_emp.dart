@@ -240,7 +240,7 @@ class _SelfRegister extends State<SelfRegister> {
                               if (res['sts'] == '1') {
                                 showDialog(context: context, child:
                                 new AlertDialog(
-                                  title: new Text("ubiAttendance"),
+                                  title: new Text("Attendance"),
                                   content: new Text("Hi " + _name.text +
                                       " \n You have registered successfully."),
                                   actions: <Widget>[

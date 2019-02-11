@@ -63,7 +63,7 @@ class _ForgotPassword extends State<ForgotPassword> {
         title: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
-            new Text('ubiAttendance', style: new TextStyle(fontSize: 20.0)),
+            new Text('Attendance', style: new TextStyle(fontSize: 20.0)),
           ],
         ),
         leading: IconButton(icon:Icon(Icons.arrow_back),onPressed:(){

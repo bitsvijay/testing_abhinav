@@ -80,7 +80,7 @@ class _UserGuide extends State<UserGuide> {
         children: <Widget>[
 
           Center(
-            child:Text('Explore ubiAttendance (User)',
+            child:Text('Explore Attendance App',
               style: new TextStyle(fontSize: 25.0, color: Colors.orangeAccent, fontWeight: FontWeight.bold)),
           ),
           SizedBox(height: MediaQuery.of(context).size.height * 0.01,),

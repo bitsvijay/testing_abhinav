@@ -135,7 +135,7 @@ class _AppDrawerState extends State<AppDrawer> {
                 color: Colors.orangeAccent,
                 onPressed: () {
                   Navigator.of(context, rootNavigator: true).pop();
-                  launchMap("https://ubiattendance.ubihrm.com/");
+                  launchMap("https://thewebjournal.in/geo-attendance/");
                 },
               ),
             ],
@@ -351,7 +351,7 @@ class _AppDrawerState extends State<AppDrawer> {
               );
             },
           ),
-          new ListTile(
+     /*     new ListTile(
             title: Row(
               children: <Widget>[
                 Icon(Icons.share,size: 20.0),SizedBox(width: 5.0),
@@ -365,8 +365,8 @@ class _AppDrawerState extends State<AppDrawer> {
                   box.localToGlobal(Offset.zero) &
                   box.size);
             },
-          ),
-          new ListTile(
+          ),*/
+        /*  new ListTile(
             title: Row(
               children: <Widget>[
                 Icon(Icons.star,size: 20.0),SizedBox(width: 5.0),
@@ -378,7 +378,7 @@ class _AppDrawerState extends State<AppDrawer> {
                   androidAppId: "org.ubitech.attendance"
                   );
             },
-          ),
+          ),*/
 
         /*  new ListTile(
             title: Row(
